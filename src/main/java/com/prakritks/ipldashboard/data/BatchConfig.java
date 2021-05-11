@@ -57,7 +57,7 @@ public MatchDataProcessor processor() {
 public JdbcBatchItemWriter<Match> writer(DataSource dataSource) {
   return new JdbcBatchItemWriterBuilder<Match>()
     .itemSqlParameterSourceProvider(new BeanPropertyItemSqlParameterSourceProvider<>())
-    .sql("INSERT INTO match (match_id, city, date, player_of_match, venue, team1, team2, toss_winner, toss_decision, match_winner, result, umpire1, umpire2) VALUES (:matchId, :city, :date, :playerOfMatch, :venue, :team1, :team2, :tossWinner, :tossDecision, :matchWinner, :result, :umpire1, :umpire2)")
+    .sql("INSERT INTO match (match_id, city, date, player_of_match, venue, team1, team2, toss_winner, toss_decision, match_winner, result, result_margin, umpire1, umpire2) VALUES (:matchId, :city, :date, :playerOfMatch, :venue, :team1, :team2, :tossWinner, :tossDecision, :matchWinner, :result, :resultMargin, :umpire1, :umpire2)")
     .dataSource(dataSource)
     .build();
 }

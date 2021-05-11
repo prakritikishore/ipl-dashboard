@@ -18,6 +18,7 @@ public class Match
     private String tossWinner;
     private String tossDecision;
     private String matchWinner;
+    private String resultMargin;
     private String result;
     private String umpire1;
     private String umpire2;
@@ -88,6 +89,14 @@ public class Match
     public void setResult(String result) {
         this.result = result;
     }
+
+    public String getResultMargin() {
+        return resultMargin;
+    }
+    public void setResultMargin(String resultMargin) {
+        this.resultMargin = resultMargin;
+    }
+
     public String getUmpire1() {
         return umpire1;
     }

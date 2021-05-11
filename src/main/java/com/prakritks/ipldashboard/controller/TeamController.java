@@ -23,13 +23,13 @@ public class TeamController {
     }
 
 
-    @GetMapping("/team")
+    @GetMapping("/teams")
     public String welcome()
     {
         return "IPL Dashboard";
     }
 
-    @GetMapping("/team/{teamName}")
+    @GetMapping("/teams/{teamName}")
     public Team getTeam(@PathVariable String teamName)
     {
         Team team = this.teamRepository.findByTeamName(teamName);
