@@ -41,7 +41,7 @@ if(!team || !team.teamName)
         </div>
         {team.latestMatches.slice(1).map(match => <MatchSmallCard match={match} teamName={team.teamName} />)}
         <div className="more-link">
-            <Link to={`/teams/${teamName}/matches/${process.env.REACT_APP_DATA_END_YEAR}`}><a href="`/Kolkata Knight Riders/2020`">More </a></Link>
+            <Link to={`/teams/${teamName}/matches/${process.env.REACT_APP_DATA_END_YEAR}`}><a href="`/Kolkata Knight Riders/2020`"> <h1> |More| </h1> </a></Link>
             </div>
     </div>
   );
