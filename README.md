@@ -1,8 +1,18 @@
 # IPL Dashboard
 
+
 We IPL teams, check their past games details like wins and losses ratios, Man of the Match - accessible by Teams and seasons.
 
-## Learning to create Spring Boot + React application. 
+## **Screenshots**
+
+
+## **Team Page**
+
+![Team Page](/README/TeamPage.JPG)
+
+## **Match Page**
+
+![Match Page](/README/MatchPage.JPG)
 
 ## **Technologies**
 
