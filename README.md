@@ -27,4 +27,4 @@ This is an IPL team Dashboard where we can check their past games details like w
 https://www.kaggle.com/patrickb1912/ipl-complete-dataset-20082020/metadata
 
 
-### Credits : Referred YouTube videos of Koushik Kothagal (Java Brains) for this project.
+### Credits : YouTube videos of Koushik Kothagal (Java Brains).
