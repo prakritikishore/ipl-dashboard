@@ -19,8 +19,8 @@ This is an IPL team Dashboard where we can check their past games details like w
 * Spring Boot
 * Spring Batch
 * Java Persistence API, Repositories and JPQL
-* HSQL DB
-* React JS
+* HSQLDB
+* Reactjs
 
 ## **Data Set Used**
 
