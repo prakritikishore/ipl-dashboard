@@ -14,7 +14,7 @@ This is an IPL team Dashboard where we can check their past games details like w
 
 ![Match Page](/README/MatchPage.JPG)
 
-## **Technologies**
+## **Tech Stack**
 
 * Spring Boot
 * Spring Batch
